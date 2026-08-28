@@ -7,13 +7,15 @@
 <hr>
 <b>Main Activities</b>
 <i>
-*Fitness and excersise sessions
-*Yoga and meditation
-*Healthy food awareness
-*Stress management activities
+*Fitness and excersise sessions<br>
+*Yoga and meditation<br>
+*Healthy food awareness<br>
+*Stress management activities<br>
 </i>
 <hr>
 <b>Objectives</b>
-1. To encourage students to stay physically a yctive
-2. To buid teamwork and discipline
-3.
+1. To encourage students to stay physically active<br>
+2. To buid teamwork and discipline<br>
+3. To improve mental well-being and confidence
+<hr>
+# 2 

@@ -18,4 +18,6 @@
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence
 <hr>
-# 2 
+# 2 Committee Details
+  *Health and Fitness club-committee
+  

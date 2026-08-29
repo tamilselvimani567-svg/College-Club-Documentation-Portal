@@ -13,12 +13,12 @@
 *Stress management activities<br>
 </i>
 <hr>
- # 💪🎯 Fitness Objectives<br>
+ #  💪🎯 Fitness Objectives<br>
 1. To encourage students to stay physically active<br>
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence <br>
 <hr>
-# 🗂️ — Committee structure
+#  🗂️ — Committee structure
   * Health and Fitness club-committee<br>
   * President : Varshini D<br>
   * Vice President : Tamilselvi M<br> 
@@ -27,7 +27,7 @@
   * Event coordinator : Dharshini M <br>
   * Members : Parvin,Poorvika,Saranya,Subashree,Poornima<br>
   <hr>
-# <u> 📅 — Event schedule </u>
+#  <u> 📅 — Event schedule </u>
 <b>
 Event Name : HEALTH AND FITNESS AWARNESS PROGRAM<br>
 Date : 25/09/2008<br>

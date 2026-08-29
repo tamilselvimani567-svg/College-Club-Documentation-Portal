@@ -18,7 +18,7 @@
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence
 <hr>
-# 2 Committee Details
+#2 Committee Details
   * Health and Fitness club-committee
   * President : Varshini D
   * Vice President : Tamilselvi M
@@ -27,7 +27,7 @@
   * Event coordinator : Dharshini M
   * Members : Parvin,Poorvika,Saranya,Subashree,Poornima
   <hr>
-# EVENT REPORT
+#EVENT REPORT
 <b>
 Event Name : HEALTH AND FITNESS AWARNESS PROGRAM<br>
 Date : 25/09/2008<br>

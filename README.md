@@ -72,7 +72,7 @@ Signature: varshini <br>
 ## 3. Budget Summary
 FITNESS AND WELLNESS CLUB
 BUDGET SUMMARY
-|S.No|	Particulars	                | Estimated Amount|
+|S.No|	Particulars	                 | Estimated Amount|
 | ---|       ---                    |  ---            |
 | 1	 | Yoga and fitness equipment   |	₹5,000          |
 | 2	 | Posters  awareness materials |  ₹2,000         |
@@ -81,7 +81,7 @@ BUDGET SUMMARY
 | 5	 | First-aid wellness materials |	₹1,500          |
 | 6	 | Miscellaneous expenses       |	₹1,500          |
 
-|	   | Total Estimated Budget	      |₹17,000          |
+|	 7 | Total Estimated Budget	      |₹17,000          |
 
 Prepared by: __________
 Approved by: __________

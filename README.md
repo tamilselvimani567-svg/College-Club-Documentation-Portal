@@ -13,10 +13,10 @@
 *Stress management activities<br>
 </i>
 <hr>
-<b>Objectives</b>
+ ## Objectives <br>
 1. To encourage students to stay physically active<br>
 2. To buid teamwork and discipline<br>
-3. To improve mental well-being and confidence
+3. To improve mental well-being and confidence <br>
 <hr>
 # 2 Committee Details
   * Health and Fitness club-committee<br>

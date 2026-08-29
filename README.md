@@ -21,10 +21,10 @@
 # 2 Committee Details
   * Health and Fitness club-committee
   * President : Varshini D
-  * Vice President : Tamilselvi M
-  * Secretary : Swetha A
-  * Treasurer : Yuvasri
-  * Event coordinator : Dharshini M
+  * Vice President : Tamilselvi M 
+  * Secretary : Swetha A 
+  * Treasurer : Yuvasri 
+  * Event coordinator : Dharshini M 
   * Members : Parvin,Poorvika,Saranya,Subashree,Poornima
   <hr>
 # EVENT REPORT

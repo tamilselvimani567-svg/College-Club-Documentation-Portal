@@ -2,7 +2,7 @@
 
 ## TAGLINE
 * "HEALTHY BODY,HEALTHY MIND, HAPPY LIFE"<br>
-  <b>About the club<b>
+  #About the club
 * #### The Fitness and wellness club promotes a healthy and active lifestyle among the students .It encourages regular exercise,healthy food habits proper rest and positive thinking.
 <hr>
 <b>Main Activities</b>

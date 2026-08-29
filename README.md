@@ -116,7 +116,7 @@ Place: SRM,Kattangalathur
 
 # 🏁 — Conclusion 
 
-     <b> The Fitness Club is committed to promoting a healthy, active, and positive lifestyle among its members. Through regular fitness activities, awareness programs, events, and teamwork, the club encourages everyone to improve their physical fitness, mental well-being, and overall quality of life.With active participation and continuous support from members and the committee, the Fitness Club aims to create a motivating environment where everyone can stay fit, build confidence, and achieve their health and fitness goals together.</b>
+     <p> The Fitness Club is committed to promoting a healthy, active, and positive lifestyle among its members. Through regular fitness activities, awareness programs, events, and teamwork, the club encourages everyone to improve their physical fitness, mental well-being, and overall quality of life.With active participation and continuous support from members and the committee, the Fitness Club aims to create a motivating environment where everyone can stay fit, build confidence, and achieve their health and fitness goals together.</p>
 
 
 

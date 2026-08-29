@@ -6,18 +6,21 @@
 * #### The Fitness and wellness club promotes a healthy and active lifestyle among the students .It encourages regular exercise,healthy food habits proper rest and positive thinking.
 <hr>
 <b>Main Activities</b>
-<i>
+<b>
 *Fitness and excersise sessions<br>
 *Yoga and meditation<br>
 *Healthy food awareness<br>
-*Stress management activities<br>  
+*Stress management activities</b><br> 
  
-💪🎯 Fitness Objectives<br>
+# 💪🎯 Fitness Objectives
+
 1. To encourage students to stay physically active<br>
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence <br>
 <hr>
-#  🗂️ — Committee structure
+
+  # 🗂️ — Committee structure
+  
   * Health and Fitness club-committee<br>
   * President : Varshini D<br>
   * Vice President : Tamilselvi M<br> 
@@ -26,6 +29,7 @@
   * Event coordinator : Dharshini M <br>
   * Members : Parvin,Poorvika,Saranya,Subashree,Poornima<br>
   <hr>
+  
 #  <u> 📅 — Event schedule </u>
 <b>
 Event Name : HEALTH AND FITNESS AWARNESS PROGRAM<br>
@@ -39,7 +43,7 @@ Orgainzed by : Health and Fitness club<br>
 # 4. 🎉🤝 Annual Club Gathering – Fitness & Wellness Club
 <b>FITNESS AND WELLNESS CLUB – ANNUAL REPORT</b>
 
-Academic Year: 2026–2027
+<b>Academic Year: 2026–2027</b>
 <p>
 The club organized activities such as Yoga sessions, fitness exercises, awareness programmes, meditation, health talks, and fitness challenges. Students actively participated in these programmes and learned the importance of maintaining a balanced and healthy lifestyle.
 The club also encouraged students to develop healthy habits, manage stress, stay physically active, and maintain proper nutrition.
@@ -59,7 +63,8 @@ MINUTES OF THE MEETING  <br>
 *Venue: SRM <br>
 *Chairperson: SWETHA A <br>
 
- 📝🎯 Meeting Agenda <br>
+ # 📝🎯 Meeting Agenda <br>
+ 
 *Planning of fitness and wellness activities. <br>
 *Discussion about upcoming events. <br>
 
@@ -88,8 +93,9 @@ Approved by: NGO Trust<br>
 Date: 29-09-2026<br>
 
 # 4. 🏅📜 Achievement Certificate
-CERTIFICATE OF PARTICIPATION
-FITNESS AND WELLNESS CLUB<br>
+
+<i>CERTIFICATE OF PARTICIPATION
+FITNESS AND WELLNESS CLUB</i><br>
 
 This is to certify that
 
@@ -106,6 +112,11 @@ Place: SRM,Kattangalathur
 
 *Faculty Coordinator Principal*
 <b>Signature :swetha </b>
+<hr>
+
+# 🏁 — Conclusion 
+
+     <b> The Fitness Club is committed to promoting a healthy, active, and positive lifestyle among its members. Through regular fitness activities, awareness programs, events, and teamwork, the club encourages everyone to improve their physical fitness, mental well-being, and overall quality of life.With active participation and continuous support from members and the committee, the Fitness Club aims to create a motivating environment where everyone can stay fit, build confidence, and achieve their health and fitness goals together.</b>
 
 
 

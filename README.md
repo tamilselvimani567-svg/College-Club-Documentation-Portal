@@ -81,19 +81,18 @@ BUDGET SUMMARY
 | 5	 | First-aid wellness materials |	₹1,500          |
 | 6	 | Miscellaneous expenses       |	₹1,500          |
 
-|	 7 | Total Estimated Budget	      |₹17,000          |
 
-Prepared by: __________
-Approved by: __________
-Date: __________
+Prepared by: Tamilselvi M
+Approved by: NGO Trust
+Date: 29-09-2026
 
-4. Certificate
+# 4. Certificate
 CERTIFICATE OF PARTICIPATION
 FITNESS AND WELLNESS CLUB
 
 This is to certify that
 
-______________________________
+Our Club Members ______________________________
 
 has actively participated in the Fitness and Wellness Club Activities conducted during the academic year 2025–2026.
 
@@ -101,15 +100,12 @@ The participant has shown enthusiasm and active involvement in promoting physica
 
 We appreciate the valuable participation and wish them continued success and good health.
 
-Date: __________
-Place: __________
+Date: 25-09-2026
+Place: SRM,Kattangalathur
 
 Faculty Coordinator Principal
-Signature: __________ Signature: __________
+Signature:swetha 
 
-If you want, I can also make these 
-more professional and college-project style, with proper headings, names, dates, and a 
-certificate design format.
 
 
   

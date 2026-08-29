@@ -10,10 +10,9 @@
 *Fitness and excersise sessions<br>
 *Yoga and meditation<br>
 *Healthy food awareness<br>
-*Stress management activities<br>
-</i>
-<hr>
- # 💪🎯 Fitness Objectives<br>
+*Stress management activities<br>  
+ 
+💪🎯 Fitness Objectives<br>
 1. To encourage students to stay physically active<br>
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence <br>

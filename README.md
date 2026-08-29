@@ -1,4 +1,4 @@
-# 1 FITNESS AND WELLNESS CLUB - PROFILE
+#  💪🔥 FITNESS AND WELLNESS CLUB - PROFILE
 
 ## TAGLINE
 * "HEALTHY BODY,HEALTHY MIND, HAPPY LIFE"<br>
@@ -13,12 +13,12 @@
 *Stress management activities<br>
 </i>
 <hr>
- ## Objectives <br>
+ # 💪🎯 Fitness Objectives<br>
 1. To encourage students to stay physically active<br>
 2. To buid teamwork and discipline<br>
 3. To improve mental well-being and confidence <br>
 <hr>
-# 2 Committee Details
+# 🗂️ — Committee structure
   * Health and Fitness club-committee<br>
   * President : Varshini D<br>
   * Vice President : Tamilselvi M<br> 
@@ -27,7 +27,7 @@
   * Event coordinator : Dharshini M <br>
   * Members : Parvin,Poorvika,Saranya,Subashree,Poornima<br>
   <hr>
-#<u>EVENT REPORT </u>
+# <u> 📅 — Event schedule </u>
 <b>
 Event Name : HEALTH AND FITNESS AWARNESS PROGRAM<br>
 Date : 25/09/2008<br>
@@ -37,19 +37,21 @@ Orgainzed by : Health and Fitness club<br>
 <hr>
 
 
-<b>4. Annual Report – Fitness & Wellness Club</b>
+# 4. 🎉🤝 Annual Club Gathering – Fitness & Wellness Club
 <b>FITNESS AND WELLNESS CLUB – ANNUAL REPORT</b>
 
 Academic Year: 2026–2027
-<i>
+<p>
 The club organized activities such as Yoga sessions, fitness exercises, awareness programmes, meditation, health talks, and fitness challenges. Students actively participated in these programmes and learned the importance of maintaining a balanced and healthy lifestyle.
 The club also encouraged students to develop healthy habits, manage stress, stay physically active, and maintain proper nutrition.
+</p>
 
 Prepared by: D Varshini
 Fitness and Wellness Club
 Date: 10/09/2008
 
-# Meeting Minutes
+#  📝 Meeting Minutes
+
 FITNESS AND WELLNESS CLUB <br>
 MINUTES OF THE MEETING  <br>
 
@@ -58,7 +60,7 @@ MINUTES OF THE MEETING  <br>
 *Venue: SRM <br>
 *Chairperson: SWETHA A <br>
 
- Agenda:<br>
+ 📝🎯 Meeting Agenda <br>
 *Planning of fitness and wellness activities. <br>
 *Discussion about upcoming events. <br>
 
@@ -69,9 +71,9 @@ The meeting began with a welcome address by the Chairperson. The members discuss
 Prepared by: varshini <br>
 Signature: varshini <br>
 
-## 3. Budget Summary
-FITNESS AND WELLNESS CLUB
-BUDGET SUMMARY
+## 3. 💰📊 Budget Summary 
+FITNESS AND WELLNESS CLUB<br>
+BUDGET SUMMARY<br>
 |S.No|	Particulars	                 | Estimated Amount|
 | ---|       ---                    |  ---            |
 | 1	 | Yoga and fitness equipment   |	₹5,000          |
@@ -82,13 +84,13 @@ BUDGET SUMMARY
 | 6	 | Miscellaneous expenses       |	₹1,500          |
 
 
-Prepared by: Tamilselvi M
-Approved by: NGO Trust
-Date: 29-09-2026
+Prepared by: Tamilselvi M<br>
+Approved by: NGO Trust<br>
+Date: 29-09-2026<br>
 
-# 4. Certificate
+# 4. 🏅📜 Achievement Certificate
 CERTIFICATE OF PARTICIPATION
-FITNESS AND WELLNESS CLUB
+FITNESS AND WELLNESS CLUB<br>
 
 This is to certify that
 
@@ -103,8 +105,8 @@ We appreciate the valuable participation and wish them continued success and goo
 Date: 25-09-2026
 Place: SRM,Kattangalathur
 
-Faculty Coordinator Principal
-Signature:swetha 
+*Faculty Coordinator Principal*
+<b>Signature :swetha </b>
 
 
 

@@ -19,15 +19,15 @@
 3. To improve mental well-being and confidence
 <hr>
 # 2 Committee Details
-  * Health and Fitness club-committee
-  * President : Varshini D
-  * Vice President : Tamilselvi M 
-  * Secretary : Swetha A 
-  * Treasurer : Yuvasri 
-  * Event coordinator : Dharshini M 
-  * Members : Parvin,Poorvika,Saranya,Subashree,Poornima
+  * Health and Fitness club-committee<br>
+  * President : Varshini D<br>
+  * Vice President : Tamilselvi M<br> 
+  * Secretary : Swetha A <br>
+  * Treasurer : Yuvasri <br>
+  * Event coordinator : Dharshini M <br>
+  * Members : Parvin,Poorvika,Saranya,Subashree,Poornima<br>
   <hr>
-# EVENT REPORT
+#<u>EVENT REPORT </u>
 <b>
 Event Name : HEALTH AND FITNESS AWARNESS PROGRAM<br>
 Date : 25/09/2008<br>
@@ -50,24 +50,24 @@ Fitness and Wellness Club
 Date: 10/09/2008
 
 # Meeting Minutes
-FITNESS AND WELLNESS CLUB
-MINUTES OF THE MEETING
+FITNESS AND WELLNESS CLUB <br>
+MINUTES OF THE MEETING  <br>
 
-*Date: 10/09/2008
-*Time: 10:00 am
-*Venue: SRM
-*Chairperson: SWETHA A
+*Date: 10/09/2008<br>
+*Time: 10:00 am <br>
+*Venue: SRM <br>
+*Chairperson: SWETHA A <br>
 
-Agenda:
-*Planning of fitness and wellness activities.
-*Discussion about upcoming events.
+ Agenda:<br>
+*Planning of fitness and wellness activities. <br>
+*Discussion about upcoming events. <br>
 
 The meeting began with a welcome address by the Chairperson. The members discussed various activities to be conducted by the Fitness and Wellness Club. It was decided to organize fitness sessions, yoga, meditation, and health-awareness programmes.
 
-### The meeting ended with a vote of thanks.
+### The meeting ended with a vote of thanks.<br>
 
-Prepared by: varshini
-Signature: varshini
+Prepared by: varshini <br>
+Signature: varshini <br>
 
 ## 3. Budget Summary
 FITNESS AND WELLNESS CLUB

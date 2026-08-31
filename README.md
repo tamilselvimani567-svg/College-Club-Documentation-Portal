@@ -99,9 +99,7 @@ FITNESS AND WELLNESS CLUB</i><br>
 
 This is to certify that
 
-Our Club Members ______________________________
-
-has actively participated in the Fitness and Wellness Club Activities conducted during the academic year 2025–2026.
+Our Club Members ______________________________has actively participated in the Fitness and Wellness Club Activities conducted during the academic year 2025–2026.
 
 The participant has shown enthusiasm and active involvement in promoting physical fitness, mental wellness, healthy habits, and a positive lifestyle.
 

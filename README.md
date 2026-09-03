@@ -9,7 +9,6 @@
 <b>
 *Fitness and excersise sessions<br>
 *Yoga and meditation<br>
-*Healthy food awareness<br>
 *Stress management activities</b><br> 
  
 # 💪🎯 Fitness Objectives
@@ -46,7 +45,7 @@ Orgainzed by : Health and Fitness club<br>
 <b>Academic Year: 2026–2027</b>
 <p>
 The club organized activities such as Yoga sessions, fitness exercises, awareness programmes, meditation, health talks, and fitness challenges. Students actively participated in these programmes and learned the importance of maintaining a balanced and healthy lifestyle.
-The club also encouraged students to develop healthy habits, manage stress, stay physically active, and maintain proper nutrition.
+The club also encouraged students to develop healthy habits, manage stress and maintain proper nutrition.
 </p>
 
 Prepared by: D Varshini
@@ -114,7 +113,7 @@ Place: SRM,Kattangalathur
 
 # 🏁 — Conclusion 
 
-      The Fitness Club is committed to promoting a healthy, active, and positive lifestyle among its members. Through regular fitness activities will be continued
+      The Fitness Club is committed to promoting a healthy, active, and positive lifestyle among its members. 
       💓
   
 

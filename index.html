@@ -1,11 +1,14 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>College Club Documentation Portal</title>
 
 <style>
+
 *{
     margin:0;
     padding:0;
@@ -20,6 +23,7 @@ body{
 }
 
 /* NAVBAR */
+
 header{
     position:sticky;
     top:0;
@@ -56,6 +60,7 @@ nav a:hover{
 }
 
 /* HERO */
+
 .hero{
     min-height:90vh;
     display:flex;
@@ -63,12 +68,21 @@ nav a:hover{
     justify-content:center;
     text-align:center;
     padding:50px 8%;
+
     background:
-    linear-gradient(135deg,#ffd21c,#ffea70,#fffdf5);
+    linear-gradient(#ffd21ccc,#fffdf599),
+    url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80");
+
+    background-size:cover;
+    background-position:center;
 }
 
 .hero-content{
     max-width:850px;
+    background:#ffffffdd;
+    padding:45px;
+    border-radius:25px;
+    box-shadow:0 15px 40px #0004;
 }
 
 .badge{
@@ -117,6 +131,7 @@ nav a:hover{
 }
 
 /* COMMON */
+
 section{
     padding:80px 8%;
 }
@@ -141,6 +156,7 @@ section{
 }
 
 /* DASHBOARD */
+
 .dashboard{
     background:#111;
     color:white;
@@ -158,6 +174,12 @@ section{
     background:#1d1d1d;
     border:1px solid #444;
     border-radius:18px;
+    transition:.3s;
+}
+
+.stat:hover{
+    transform:translateY(-8px);
+    border-color:#ffd21c;
 }
 
 .stat h3{
@@ -170,6 +192,7 @@ section{
 }
 
 /* PROFILE */
+
 .profile{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -208,7 +231,23 @@ section{
     font-weight:600;
 }
 
+/* PROFILE IMAGE */
+
+.profile-image{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 12px 30px #0003;
+    transition:.4s;
+}
+
+.profile-image:hover{
+    transform:scale(1.03);
+}
+
 /* CARDS */
+
 .cards{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -218,7 +257,7 @@ section{
 .card{
     background:white;
     border-radius:20px;
-    padding:30px;
+    overflow:hidden;
     box-shadow:0 8px 25px #0001;
     transition:.3s;
     border-top:5px solid #ffd21c;
@@ -227,6 +266,17 @@ section{
 .card:hover{
     transform:translateY(-8px);
     box-shadow:0 15px 35px #0002;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-content{
+    padding:25px;
 }
 
 .icon{
@@ -244,6 +294,7 @@ section{
 }
 
 /* TABLE */
+
 .table-container{
     overflow-x:auto;
     background:white;
@@ -273,6 +324,7 @@ tr:hover{
 }
 
 /* BUDGET */
+
 .budget-box{
     max-width:850px;
     margin:auto;
@@ -306,6 +358,7 @@ tr:hover{
 }
 
 /* CERTIFICATES */
+
 .certificate{
     position:relative;
     background:#fff;
@@ -333,6 +386,7 @@ tr:hover{
 }
 
 /* EVENT REPORT */
+
 .event{
     display:grid;
     grid-template-columns:1fr 2fr;
@@ -368,7 +422,39 @@ tr:hover{
     color:#555;
 }
 
+/* EVENT IMAGE */
+
+.event-image{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:18px;
+    transition:.4s;
+    box-shadow:0 6px 20px #0002;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
 /* FOOTER */
+
 footer{
     background:#111;
     color:white;
@@ -386,7 +472,9 @@ footer p{
 }
 
 /* RESPONSIVE */
+
 @media(max-width:900px){
+
     nav{
         display:none;
     }
@@ -402,15 +490,21 @@ footer p{
     .profile{
         grid-template-columns:1fr;
     }
+
+    .gallery{
+        grid-template-columns:repeat(2,1fr);
+    }
 }
 
 @media(max-width:600px){
+
     section{
         padding:60px 5%;
     }
 
     .stats,
-    .cards{
+    .cards,
+    .gallery{
         grid-template-columns:1fr;
     }
 
@@ -421,457 +515,817 @@ footer p{
     .hero h1{
         font-size:45px;
     }
+
+    .hero-content{
+        padding:30px 20px;
+    }
 }
+
 </style>
 </head>
 
 <body>
 
 <!-- NAVIGATION -->
-<header>
-    <div class="logo">FIT<span>DOCS</span> 📋</div>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#profile">Profile</a>
-        <a href="#gathering">Gathering</a>
-        <a href="#minutes">Minutes</a>
-        <a href="#budget">Budget</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#events">Events</a>
-    </nav>
+<header>
+
+<div class="logo">
+FIT<span>DOCS</span> 📋
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#profile">Profile</a>
+<a href="#gathering">Gathering</a>
+<a href="#minutes">Minutes</a>
+<a href="#budget">Budget</a>
+<a href="#certificates">Certificates</a>
+<a href="#events">Events</a>
+<a href="#gallery">Gallery</a>
+</nav>
+
 </header>
 
 
 <!-- HOME -->
+
 <section class="hero" id="home">
-    <div class="hero-content">
-        <div class="badge">🏆 COLLEGE CLUB DOCUMENTATION PORTAL</div>
 
-        <h1>
-            Fitness &<br>
-            <span>Wellness Club</span>
-        </h1>
+<div class="hero-content">
 
-        <p>
-            A creative digital documentation portal for managing
-            club profiles, annual gatherings, meeting minutes,
-            budgets, certificates and event reports.
-        </p>
+<div class="badge">
+🏆 COLLEGE CLUB DOCUMENTATION PORTAL
+</div>
 
-        <a href="#profile" class="btn">Explore Documentation →</a>
-    </div>
+<h1>
+Fitness &<br>
+<span>Wellness Club</span>
+</h1>
+
+<p>
+A creative digital documentation portal for managing
+club profiles, annual gatherings, meeting minutes,
+budgets, certificates and event reports.
+</p>
+
+<a href="#profile" class="btn">
+Explore Documentation →
+</a>
+
+</div>
+
 </section>
 
 
 <!-- DASHBOARD -->
+
 <section class="dashboard">
-    <div class="section-title">
-        <h2 style="color:white;">Club <span>Dashboard</span></h2>
-        <p>Quick overview of our documentation</p>
-    </div>
 
-    <div class="stats">
-        <div class="stat">
-            <h3>08</h3>
-            <p>Major Events</p>
-        </div>
+<div class="section-title">
 
-        <div class="stat">
-            <h3>120+</h3>
-            <p>Participants</p>
-        </div>
+<h2 style="color:white;">
+Club <span>Dashboard</span>
+</h2>
 
-        <div class="stat">
-            <h3>06</h3>
-            <p>Club Meetings</p>
-        </div>
+<p>Quick overview of our documentation</p>
 
-        <div class="stat">
-            <h3>75+</h3>
-            <p>Certificates</p>
-        </div>
-    </div>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h3>08</h3>
+<p>Major Events</p>
+</div>
+
+<div class="stat">
+<h3>120+</h3>
+<p>Participants</p>
+</div>
+
+<div class="stat">
+<h3>06</h3>
+<p>Club Meetings</p>
+</div>
+
+<div class="stat">
+<h3>75+</h3>
+<p>Certificates</p>
+</div>
+
+</div>
+
 </section>
 
 
 <!-- CLUB PROFILE -->
+
 <section id="profile">
-    <div class="section-title">
-        <h2>Fitness & Wellness <span>Club Profile</span></h2>
-        <p>Building healthier minds, stronger bodies and happier campus communities.</p>
-    </div>
 
-    <div class="profile">
+<div class="section-title">
 
-        <div class="profile-box">
-            <h3>🌟 About Our Club</h3>
+<h2>
+Fitness & Wellness <span>Club Profile</span>
+</h2>
 
-            <p>
-                The Fitness and Wellness Club is a student-centered initiative
-                dedicated to promoting physical fitness, mental wellness,
-                healthy habits and an active lifestyle among college students.
-            </p>
+<p>
+Building healthier minds, stronger bodies and happier campus communities.
+</p>
 
-            <div class="goals">
-                <div class="goal">💪 Promote regular physical activity</div>
-                <div class="goal">🧘 Encourage mental wellness</div>
-                <div class="goal">🥗 Create awareness about healthy habits</div>
-                <div class="goal">🤝 Build teamwork and leadership</div>
-            </div>
-        </div>
+</div>
 
-        <div class="profile-box">
-            <h3>🎯 Vision & Mission</h3>
+<div class="profile">
 
-            <p>
-                <b>Vision:</b> To create a healthy, energetic and positive
-                college community.
-            </p>
+<div>
 
-            <br>
+<img
+class="profile-image"
+src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80"
+alt="Fitness Club">
 
-            <p>
-                <b>Mission:</b> To organize fitness activities, wellness
-                programs, awareness campaigns, competitions and educational
-                sessions that encourage students to maintain a balanced lifestyle.
-            </p>
+</div>
 
-            <br>
 
-            <p>
-                <b>Motto:</b> “Move Today • Stronger Tomorrow”
-            </p>
-        </div>
+<div class="profile-box">
 
-    </div>
+<h3>🌟 About Our Club</h3>
+
+<p>
+The Fitness and Wellness Club is a student-centered initiative
+dedicated to promoting physical fitness, mental wellness,
+healthy habits and an active lifestyle among college students.
+</p>
+
+<div class="goals">
+
+<div class="goal">
+💪 Promote regular physical activity
+</div>
+
+<div class="goal">
+🧘 Encourage mental wellness
+</div>
+
+<div class="goal">
+🥗 Create awareness about healthy habits
+</div>
+
+<div class="goal">
+🤝 Build teamwork and leadership
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 
 <!-- ANNUAL GATHERING -->
+
 <section id="gathering">
-    <div class="section-title">
-        <h2>Annual Club <span>Gathering</span></h2>
-        <p>Celebrating participation, teamwork and achievements.</p>
-    </div>
 
-    <div class="cards">
+<div class="section-title">
 
-        <div class="card">
-            <div class="icon">🎉</div>
-            <h3>Welcome Session</h3>
-            <p>
-                Introduction to the Fitness and Wellness Club,
-                its activities, objectives and upcoming programs.
-            </p>
-        </div>
+<h2>
+Annual Club <span>Gathering</span>
+</h2>
 
-        <div class="card">
-            <div class="icon">🏃</div>
-            <h3>Fitness Activities</h3>
-            <p>
-                Fun workout sessions, yoga, stretching activities,
-                fitness challenges and team games.
-            </p>
-        </div>
+<p>
+Celebrating participation, teamwork and achievements.
+</p>
 
-        <div class="card">
-            <div class="icon">🏆</div>
-            <h3>Achievement Ceremony</h3>
-            <p>
-                Recognition of active members, volunteers and
-                outstanding participants with certificates.
-            </p>
-        </div>
+</div>
 
-    </div>
+
+<div class="cards">
+
+
+<div class="card">
+
+<img
+src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80"
+alt="Fitness Activity">
+
+<div class="card-content">
+
+<div class="icon">🎉</div>
+
+<h3>Welcome Session</h3>
+
+<p>
+Introduction to the Fitness and Wellness Club,
+its activities, objectives and upcoming programs.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<img
+src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80"
+alt="Workout">
+
+<div class="card-content">
+
+<div class="icon">🏃</div>
+
+<h3>Fitness Activities</h3>
+
+<p>
+Fun workout sessions, yoga, stretching activities,
+fitness challenges and team games.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<img
+src="https://images.unsplash.com/photo-1517838277536-f5f99be5019f?auto=format&fit=crop&w=900&q=80"
+alt="Achievement">
+
+<div class="card-content">
+
+<div class="icon">🏆</div>
+
+<h3>Achievement Ceremony</h3>
+
+<p>
+Recognition of active members, volunteers and
+outstanding participants with certificates.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 
 <!-- MEETING MINUTES -->
+
 <section id="minutes">
-    <div class="section-title">
-        <h2>Meeting <span>Minutes</span></h2>
-        <p>Official record of club discussions and decisions.</p>
-    </div>
 
-    <div class="table-container">
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>Meeting</th>
-                <th>Major Discussion</th>
-                <th>Decision</th>
-            </tr>
+<div class="section-title">
 
-            <tr>
-                <td>10 Jan 2026</td>
-                <td>Planning Meeting</td>
-                <td>Annual activity planning</td>
-                <td>Approved</td>
-            </tr>
+<h2>
+Meeting <span>Minutes</span>
+</h2>
 
-            <tr>
-                <td>05 Feb 2026</td>
-                <td>Fitness Drive</td>
-                <td>Campus fitness campaign</td>
-                <td>Scheduled</td>
-            </tr>
+<p>
+Official record of club discussions and decisions.
+</p>
 
-            <tr>
-                <td>15 Mar 2026</td>
-                <td>Wellness Meeting</td>
-                <td>Yoga and awareness program</td>
-                <td>Approved</td>
-            </tr>
+</div>
 
-            <tr>
-                <td>20 Apr 2026</td>
-                <td>Review Meeting</td>
-                <td>Event progress and budget</td>
-                <td>Reviewed</td>
-            </tr>
-        </table>
-    </div>
+
+<div class="table-container">
+
+<table>
+
+<tr>
+
+<th>Date</th>
+<th>Meeting</th>
+<th>Major Discussion</th>
+<th>Decision</th>
+
+</tr>
+
+<tr>
+
+<td>10 Jan 2026</td>
+<td>Planning Meeting</td>
+<td>Annual activity planning</td>
+<td>Approved</td>
+
+</tr>
+
+<tr>
+
+<td>05 Feb 2026</td>
+<td>Fitness Drive</td>
+<td>Campus fitness campaign</td>
+<td>Scheduled</td>
+
+</tr>
+
+<tr>
+
+<td>15 Mar 2026</td>
+<td>Wellness Meeting</td>
+<td>Yoga and awareness program</td>
+<td>Approved</td>
+
+</tr>
+
+<tr>
+
+<td>20 Apr 2026</td>
+<td>Review Meeting</td>
+<td>Event progress and budget</td>
+<td>Reviewed</td>
+
+</tr>
+
+</table>
+
+</div>
+
 </section>
 
 
 <!-- BUDGET -->
+
 <section id="budget">
-    <div class="section-title">
-        <h2>Budget <span>Summary</span></h2>
-        <p>Overview of planned club expenditure.</p>
-    </div>
 
-    <div class="budget-box">
+<div class="section-title">
 
-        <div class="budget-row">
-            <div class="budget-info">
-                <span>🏃 Fitness Events</span>
-                <b>₹15,000</b>
-            </div>
-            <div class="bar">
-                <div class="fill" style="width:75%;"></div>
-            </div>
-        </div>
+<h2>
+Budget <span>Summary</span>
+</h2>
 
-        <div class="budget-row">
-            <div class="budget-info">
-                <span>🧘 Wellness Activities</span>
-                <b>₹8,000</b>
-            </div>
-            <div class="bar">
-                <div class="fill" style="width:50%;"></div>
-            </div>
-        </div>
+<p>
+Overview of planned club expenditure.
+</p>
 
-        <div class="budget-row">
-            <div class="budget-info">
-                <span>🏆 Certificates & Awards</span>
-                <b>₹5,000</b>
-            </div>
-            <div class="bar">
-                <div class="fill" style="width:32%;"></div>
-            </div>
-        </div>
+</div>
 
-        <div class="budget-row">
-            <div class="budget-info">
-                <span>📢 Promotion & Materials</span>
-                <b>₹4,000</b>
-            </div>
-            <div class="bar">
-                <div class="fill" style="width:25%;"></div>
-            </div>
-        </div>
 
-        <hr>
+<div class="budget-box">
 
-        <div class="budget-info" style="margin-top:25px;font-size:20px;">
-            <span><b>Total Estimated Budget</b></span>
-            <b>₹32,000</b>
-        </div>
 
-    </div>
+<div class="budget-row">
+
+<div class="budget-info">
+
+<span>🏃 Fitness Events</span>
+
+<b>₹15,000</b>
+
+</div>
+
+<div class="bar">
+
+<div class="fill" style="width:75%;"></div>
+
+</div>
+
+</div>
+
+
+<div class="budget-row">
+
+<div class="budget-info">
+
+<span>🧘 Wellness Activities</span>
+
+<b>₹8,000</b>
+
+</div>
+
+<div class="bar">
+
+<div class="fill" style="width:50%;"></div>
+
+</div>
+
+</div>
+
+
+<div class="budget-row">
+
+<div class="budget-info">
+
+<span>🏆 Certificates & Awards</span>
+
+<b>₹5,000</b>
+
+</div>
+
+<div class="bar">
+
+<div class="fill" style="width:32%;"></div>
+
+</div>
+
+</div>
+
+
+<div class="budget-row">
+
+<div class="budget-info">
+
+<span>📢 Promotion & Materials</span>
+
+<b>₹4,000</b>
+
+</div>
+
+<div class="bar">
+
+<div class="fill" style="width:25%;"></div>
+
+</div>
+
+</div>
+
+
+<hr>
+
+
+<div class="budget-info"
+style="margin-top:25px;font-size:20px;">
+
+<span>
+<b>Total Estimated Budget</b>
+</span>
+
+<b>₹32,000</b>
+
+</div>
+
+</div>
+
 </section>
 
 
 <!-- CERTIFICATES -->
+
 <section id="certificates">
-    <div class="section-title">
-        <h2>Club <span>Certificates</span></h2>
-        <p>Recognition for participation and contribution.</p>
-    </div>
 
-    <div class="certificate">
+<div class="section-title">
 
-        <div style="font-size:50px;">🏆</div>
+<h2>
+Club <span>Certificates</span>
+</h2>
 
-        <h3>CERTIFICATE OF PARTICIPATION</h3>
+<p>
+Recognition for participation and contribution.
+</p>
 
-        <h2>Fitness & Wellness Club</h2>
+</div>
 
-        <p>
-            This certificate is proudly presented to
-        </p>
 
-        <h2>________________________</h2>
+<div class="certificate">
 
-        <p>
-            for active participation and valuable contribution
-            to the Fitness and Wellness Club activities.
-        </p>
+<div style="font-size:50px;">
+🏆
+</div>
 
-        <br>
+<h3>
+CERTIFICATE OF PARTICIPATION
+</h3>
 
-        <p>
-            <b>Date:</b> ____________
-            &nbsp;&nbsp;&nbsp;
-            <b>Place:</b> College Campus
-        </p>
+<h2>
+Fitness & Wellness Club
+</h2>
 
-        <br>
+<p>
+This certificate is proudly presented to
+</p>
 
-        <p>
-            ____________________ &nbsp;&nbsp;&nbsp;
-            ____________________
-            <br>
-            Club Coordinator &nbsp;&nbsp;&nbsp;&nbsp; Principal
-        </p>
+<h2>
+________________________
+</h2>
 
-    </div>
+<p>
+for active participation and valuable contribution
+to the Fitness and Wellness Club activities.
+</p>
+
+<br>
+
+<p>
+
+<b>Date:</b> ____________
+
+&nbsp;&nbsp;&nbsp;
+
+<b>Place:</b> College Campus
+
+</p>
+
+<br>
+
+<p>
+
+____________________ &nbsp;&nbsp;&nbsp;
+
+____________________
+
+<br>
+
+Club Coordinator &nbsp;&nbsp;&nbsp;&nbsp; Principal
+
+</p>
+
+</div>
+
 </section>
 
 
 <!-- EVENT REPORT -->
+
 <section id="events">
-    <div class="section-title">
-        <h2>Event <span>Reports</span></h2>
-        <p>Highlights of our fitness and wellness activities.</p>
-    </div>
 
-    <div class="event">
+<div class="section-title">
 
-        <div class="event-date">
-            <strong>01</strong>
-            <span>FEB 2026</span>
-        </div>
+<h2>
+Event <span>Reports</span>
+</h2>
 
-        <div class="event-content">
-            <h3>🏃 Fitness Challenge</h3>
+<p>
+Highlights of our fitness and wellness activities.
+</p>
 
-            <p>
-                A campus-wide fitness challenge was organized to encourage
-                students to participate in simple physical activities.
-                Students participated enthusiastically in team-based
-                fitness games and activities.
-            </p>
-
-            <br>
-
-            <b>Participants:</b> 60+ Students
-            <br>
-            <b>Outcome:</b> Increased awareness and participation in fitness.
-        </div>
-
-    </div>
+</div>
 
 
-    <div class="event">
+<!-- EVENT 1 -->
 
-        <div class="event-date">
-            <strong>15</strong>
-            <span>MAR 2026</span>
-        </div>
+<div class="event">
 
-        <div class="event-content">
-            <h3>🧘 Wellness & Yoga Day</h3>
+<div>
 
-            <p>
-                A wellness session was conducted with yoga, breathing
-                exercises and awareness activities. The program focused
-                on relaxation, concentration and maintaining a healthy
-                daily routine.
-            </p>
+<div class="event-date">
 
-            <br>
+<strong>01</strong>
 
-            <b>Participants:</b> 45+ Students
-            <br>
-            <b>Outcome:</b> Students gained awareness about wellness practices.
-        </div>
+<span>FEB 2026</span>
 
-    </div>
+</div>
+
+</div>
 
 
-    <div class="event">
+<div class="event-content">
 
-        <div class="event-date">
-            <strong>25</strong>
-            <span>MAY 2026</span>
-        </div>
+<img
+class="event-image"
+src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1000&q=80"
+alt="Fitness Challenge">
 
-        <div class="event-content">
-            <h3>⚡ Energize Fitness Fest</h3>
+<h3>
+🏃 Fitness Challenge
+</h3>
 
-            <p>
-                The annual Fitness and Wellness Club event included
-                fun workout sessions, fitness challenges, wellness
-                activities, health awareness and recognition of
-                student participation.
-            </p>
+<p>
+A campus-wide fitness challenge was organized to encourage
+students to participate in simple physical activities.
+Students participated enthusiastically in team-based
+fitness games and activities.
+</p>
 
-            <br>
+<br>
 
-            <b>Participants:</b> 100+ Students
-            <br>
-            <b>Outcome:</b> Successfully promoted fitness, teamwork and wellness.
-        </div>
+<b>Participants:</b> 60+ Students
 
-    </div>
+<br>
+
+<b>Outcome:</b>
+Increased awareness and participation in fitness.
+
+</div>
+
+</div>
+
+
+<!-- EVENT 2 -->
+
+<div class="event">
+
+<div>
+
+<div class="event-date">
+
+<strong>15</strong>
+
+<span>MAR 2026</span>
+
+</div>
+
+</div>
+
+
+<div class="event-content">
+
+<img
+class="event-image"
+src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=80"
+alt="Yoga Day">
+
+<h3>
+🧘 Wellness & Yoga Day
+</h3>
+
+<p>
+A wellness session was conducted with yoga, breathing
+exercises and awareness activities. The program focused
+on relaxation, concentration and maintaining a healthy
+daily routine.
+</p>
+
+<br>
+
+<b>Participants:</b> 45+ Students
+
+<br>
+
+<b>Outcome:</b>
+Students gained awareness about wellness practices.
+
+</div>
+
+</div>
+
+
+<!-- EVENT 3 -->
+
+<div class="event">
+
+<div>
+
+<div class="event-date">
+
+<strong>25</strong>
+
+<span>MAY 2026</span>
+
+</div>
+
+</div>
+
+
+<div class="event-content">
+
+<img
+class="event-image"
+src="https://images.unsplash.com/photo-1517964603305-11c0f6f66012?auto=format&fit=crop&w=1000&q=80"
+alt="Fitness Fest">
+
+<h3>
+⚡ Energize Fitness Fest
+</h3>
+
+<p>
+The annual Fitness and Wellness Club event included
+fun workout sessions, fitness challenges, wellness
+activities, health awareness and recognition of
+student participation.
+</p>
+
+<br>
+
+<b>Participants:</b> 100+ Students
+
+<br>
+
+<b>Outcome:</b>
+Successfully promoted fitness, teamwork and wellness.
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PHOTO GALLERY -->
+
+<section id="gallery">
+
+<div class="section-title">
+
+<h2>
+Fitness <span>Gallery</span>
+</h2>
+
+<p>
+Memories and highlights from our club activities.
+</p>
+
+</div>
+
+
+<div class="gallery">
+
+<img
+src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80"
+alt="Gym">
+
+<img
+src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80"
+alt="Fitness Training">
+
+<img
+src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80"
+alt="Yoga">
+
+<img
+src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80"
+alt="Workout">
+
+<img
+src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80"
+alt="Exercise">
+
+<img
+src="https://images.unsplash.com/photo-1517838277536-f5f99be5019f?auto=format&fit=crop&w=900&q=80"
+alt="Fitness Team">
+
+<img
+src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=900&q=80"
+alt="Fitness Challenge">
+
+<img
+src="https://images.unsplash.com/photo-1517964603305-11c0f6f66012?auto=format&fit=crop&w=900&q=80"
+alt="Fitness Event">
+
+</div>
 
 </section>
 
 
 <!-- FOOTER -->
+
 <footer>
-    <h2>FITNESS & WELLNESS CLUB</h2>
 
-    <p>
-        College Club Documentation Portal
-    </p>
+<h2>
+FITNESS & WELLNESS CLUB
+</h2>
 
-    <br>
+<p>
+College Club Documentation Portal
+</p>
 
-    <p>
-        © 2026 Fitness & Wellness Club | All Rights Reserved
-    </p>
+<br>
+
+<p>
+© 2026 Fitness & Wellness Club | All Rights Reserved
+</p>
+
 </footer>
 
 
+<!-- SCROLL ANIMATION -->
+
 <script>
-/* SIMPLE SCROLL ANIMATION */
 
-const cards = document.querySelectorAll(".card, .event, .profile-box");
+const cards =
+document.querySelectorAll(
+".card, .event, .profile-box, .gallery img"
+);
 
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach(entry=>{
-        if(entry.isIntersecting){
-            entry.target.style.opacity="1";
-            entry.target.style.transform="translateY(0)";
-        }
-    });
-},{
-    threshold:0.15
+const observer =
+new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform=
+"translateY(0)";
+
+}
+
 });
+
+},{
+threshold:0.15
+});
+
 
 cards.forEach(card=>{
-    card.style.opacity="0";
-    card.style.transform="translateY(30px)";
-    card.style.transition="all .7s ease";
-    observer.observe(card);
+
+card.style.opacity="0";
+
+card.style.transform=
+"translateY(30px)";
+
+card.style.transition=
+"all .7s ease";
+
+observer.observe(card);
+
 });
+
 </script>
 
 </body>
 </html>
+
